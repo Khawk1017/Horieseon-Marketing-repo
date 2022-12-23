@@ -1,3 +1,5 @@
+/* my listed items are not displaying inline and I cant seem to find where I made my mistake so website not fully identical to mock up */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -31,12 +33,12 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header nav ul {
+/* replaced div element and added nav sematic to target the listed items */
+.nav__head nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+.nav__head nav ul li {
     display: inline-block;
     margin-left: 25px;
     
